@@ -1,4 +1,10 @@
 
+const app = {
+  init:this.init()
+}
+init = () =>{
+  this.initActivityListData()
+}
 //数据处理
 initActivityListData = (shortVideoList) => {
         
